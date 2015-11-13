@@ -2,8 +2,8 @@
 
 Install sbt in your EMR Cluster before starting
 
-## spark-elasticsearch (vanilla ES approach)
-## spark-elasticsearch-managed-aws (AWS ES approach)
+spark-elasticsearch (vanilla ES approach)
+spark-elasticsearch-managed-aws (AWS ES approach)
 
 ```
 git clone 
