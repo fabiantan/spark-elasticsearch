@@ -13,7 +13,7 @@ object Elasticsearch {
 
     val conf = new SparkConf().setAppName("UniqueUserCount")
     conf.set("es.index.auto.create", "true")
-    conf.set("es.nodes","54.66.140.211:9200") 
+    conf.set("es.nodes","ipaddress:9200")  // replace ipaddress
     conf.set("es.nodes.client.only","false") 
     conf.set("es.nodes.data.only","false") 
     conf.set("es.nodes.discovery", "false")

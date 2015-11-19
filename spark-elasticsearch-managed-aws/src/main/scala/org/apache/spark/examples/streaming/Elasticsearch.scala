@@ -13,7 +13,7 @@ object Elasticsearch {
 
     val conf = new SparkConf().setAppName("UniqueUserCount")
     conf.set("es.index.auto.create", "true")
-    conf.set("es.nodes","search-t2medium-qg7fmu4dq6e652vtu4pvdmj3r4.ap-southeast-2.es.amazonaws.com:80") //my elasticserver ip
+    conf.set("es.nodes","ipaddress:80") //my elasticserver ip
     conf.set("es.nodes.client.only","false") 
     conf.set("es.nodes.data.only","false") 
     conf.set("es.nodes.wan.only","true") 
